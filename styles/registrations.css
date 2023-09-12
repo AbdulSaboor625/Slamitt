@@ -1,0 +1,1860 @@
+.ant-layout {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.competitionTabsetParent .competitionSidebar {
+    /* display: none !important; */
+}
+
+.registrationsContent {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.registrationsContentHeader {
+    width: 100%;
+}
+
+.registrationsContentPrimaryHeader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 0 35px;
+}
+
+.registrationsContentPrimaryHeaderStatus {
+    border-radius: 10px;
+    background: #ededed;
+    padding: 15px 25px;
+    height: 83px;
+    display: flex;
+    align-items: center;
+}
+
+.registrationsContentPrimaryHeaderStatus .title {
+    display: block;
+    font-size: 18px;
+    color: #000 !important;
+    font-weight: 600;
+    margin: 0 15px 0 0 !important;
+}
+
+.registrationsContentPrimaryHeaderStatus .settingsButton {
+    width: 38px;
+    height: 38px;
+    min-width: 38px;
+    border: 1px solid #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 0 15px 0 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.registrationsContentPrimaryHeaderStatus .settingsButton svg {
+    width: 18px;
+    height: 18px;
+    color: #666;
+    transition: all 0.3s ease-in-out;
+}
+
+.registrationsContentPrimaryHeaderStatus .settingsButton:hover {
+    background: #6808fe;
+    border-color: #6808fe;
+}
+
+.registrationsContentPrimaryHeaderStatus .settingsButton:hover svg {
+    color: #fff;
+}
+
+.registrationsContentPrimaryHeaderStatus .ant-switch {
+    margin-left: 0;
+    border-color: #fff !important;
+    background: #fff !important;
+}
+
+.registrationsContentPrimaryHeaderStatus .ant-switch .ant-switch-handle::before {
+    background: #888;
+    box-shadow: none;
+}
+
+.registrationsContentPrimaryHeaderStatus.open {
+    background: #000;
+}
+
+.registrationsContentPrimaryHeaderStatus.open .title {
+    color: #fff !important;
+}
+
+.registrationsContentPrimaryHeaderStatus.open .settingsButton:not(:hover) {
+    border-color: #fff;
+}
+
+.registrationsContentPrimaryHeaderStatus.open .settingsButton:not(:hover) svg {
+    color: #fff;
+}
+
+.registrationsContentPrimaryHeaderStatus .linkCopy {
+    width: 300px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 11px;
+    margin: 0 15px 0 0;
+    position: relative;
+}
+  
+.registrationsContentPrimaryHeaderStatus .linkCopy .linkCopyText {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+  
+.registrationsContentPrimaryHeaderStatus .linkCopy .linkCopyText img {
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin: 0 6px 0 0;
+}
+  
+.registrationsContentPrimaryHeaderStatus .linkCopy .linkCopyText .linkCopyTextLink {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 64px);
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fff !important;
+    font-style: italic;
+}
+  
+.registrationsContentPrimaryHeaderStatus .linkCopy .ant-typography-copy {
+    width: 44px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: #fff !important;
+    border-left: 1px solid #fff !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+  
+.registrationsContentPrimaryHeaderStatus .linkCopy .ant-typography-copy .anticon.anticon-copy {
+    width: 16px;
+    height: 18px;
+    background: url("https://rethink-competitions.s3.ap-south-1.amazonaws.com/1676920231417_copy.svg")
+    no-repeat;
+    background-size: 100% 100%;
+}
+  
+.registrationsContentPrimaryHeaderStatus .linkCopy .ant-typography-copy .anticon.anticon-copy svg {
+    display: none;
+}
+
+.registrationCountingStats {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -7px;
+}
+
+.registrationCountingStatsBox {
+    margin: 0 7px;
+    border-radius: 10px;
+    border: 1px solid #aeaeae;
+    width: 185px;
+    padding: 15px 20px 18px;
+    text-align: center;
+}
+
+.registrationCountingStatsBox .textPoints {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    line-height: 1;
+    color: #aeaeae !important;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.registrationCountingStatsBox .textPoints.filled {
+    color: #000 !important;
+}
+
+.registrationCountingStatsBox .textPoints img {
+    width: auto;
+    height: 29px;
+    margin: 0 0 0 15px;
+}
+
+.registrationCountingStatsBox .textSubtitle {
+    display: block;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+    margin: 0;
+    color: #000 !important;
+    text-transform: uppercase;
+}
+
+.registrationsContentSecondaryHeader {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 0 40px;
+}
+
+.registrationsContentSecondaryHeaderForm {
+    overflow: hidden;
+}
+
+.registrationsContentSecondaryHeaderForm .label {
+    display: block;
+    font-weight: 500;
+    color: #888 !important;
+    margin: 0 0 10px;
+}
+
+.registrationsContentSecondaryHeaderFormFields {
+    display: flex;
+    align-items: center;
+    margin: 0 -6px;
+}
+
+.registrationsContentSecondaryHeaderFormFields .field {
+    width: 240px;
+    padding: 0 6px;
+    position: relative;
+}
+
+.registrationsContentSecondaryHeaderFormFields .field .ant-picker,
+.registrationsContentSecondaryHeaderFormFields .field .ant-input {
+    width: 100%;
+    height: 48px;
+    border-radius: 10px;
+}
+
+.registrationsContentSecondaryHeaderFormFields .field .ant-picker .ant-picker-input > input,
+.registrationsContentSecondaryHeaderFormFields .field .ant-input {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.registrationsContentSecondaryHeaderFormFields .field .ant-picker .ant-picker-input {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.registrationsContentSecondaryHeaderFormFields .field .ant-picker .ant-picker-input .ant-picker-suffix {
+    margin: 0 6px 0 0;
+}
+
+.registrationsContentSecondaryHeaderFormFields .field .clearButton {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.registrationsContentSecondaryHeaderFormFields .field .clearButton svg {
+    width: 20px;
+    height: 20px;
+    color: #666;
+}
+
+.registrationsContentSecondaryHeaderFormFields .field .clearButton:hover svg {
+    color: #6808fe;
+}
+
+.registrationsContentSecondaryHeaderButtons {
+    display: flex;
+    align-items: center;
+    margin: 0 -6px;
+}
+
+.registrationsContentSecondaryHeaderButtons .buttonRegistrations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 48px;
+    font-size: 16px;
+    color: #666;
+    margin: 0 6px;
+}
+
+.registrationsContentSecondaryHeaderButtons .buttonRegistrations:not(:hover) svg {
+    color: #aeaeae;
+    transition: all 0.3s ease-in-out;
+}
+
+.registrationsContentSecondaryHeaderButtons .buttonRegistrations:hover {
+    color: #fff;
+}
+
+.registrationsContentSecondaryHeaderButtons .buttonRegistrations span {
+    margin: 0 !important;
+    display: inline-flex;
+    align-items: center;
+}
+
+.registrationsContentSecondaryHeaderButtons .buttonRegistrations span svg {
+    margin-right: 8px;
+}
+
+.registrationsContentSecondaryHeaderButtons .buttonRegistrations:disabled {
+    background: #f5f5f5;
+    color: rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 0.25);
+}
+
+.registrationsContentSecondaryHeaderActions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    border: 1px solid #c4c4c4;
+    padding: 10px 5px;
+}
+
+.registrationsContentSecondaryHeaderActions li + li {
+    border-left: 1px solid #c4c4c4;
+}
+
+.registrationsContentSecondaryHeaderActions li .ant-btn {
+    height: auto !important;
+    display: flex;
+    align-items: center;
+    color: #000 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+.registrationsContentSecondaryHeaderActions li .ant-btn:hover {
+    color: #6808fe !important;
+}
+
+.registrationsContentSecondaryHeaderActions li .ant-btn:focus {
+    background: transparent;
+}
+
+.registrationsContentSecondaryHeaderActions li .ant-btn span {
+    text-decoration: none;
+    margin: 0;
+}
+
+.registrationsContentSecondaryHeaderActions li .ant-btn span.anticon {
+    line-height: 0;
+}
+
+.registrationsContentSecondaryHeaderActions li .ant-btn svg {
+    margin-right: 8px;
+}
+
+.registrationPlaceholder {
+    border-radius: 10px;
+    border: 1px solid #aeaeae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 510px;
+}
+
+.registrationPlaceholder .registrationPlaceholderImage .ant-image {
+    max-height: inherit;
+    max-width: inherit;
+    margin: 0 0 25px !important;
+}
+
+.registrationPlaceholder .registrationPlaceholderImage .ant-image .ant-image-img {
+    max-width: inherit;
+    max-height: 270px !important;
+}
+
+.registrationPlaceholder .registrationPlaceholderText {
+    display: block;
+    color: #666 !important;
+    margin: 0;
+    font-weight: 600;
+}
+
+
+
+.registrationContentHolder .ReactVirtualized__List {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.registrationContentHolder .ReactVirtualized__Grid__innerScrollContainer {
+    max-width: 100% !important;
+}
+
+.registrationTableRow {
+    display: flex;
+    align-items: flex-start;
+}
+
+.registrationTableRowContent {
+    flex-grow: 1;
+}
+
+.registrationTableRowContent .registrationTableRowContentRow {
+    display: flex;
+    width: 100%;
+}
+
+.registrationTableRowContent .registrationTableRowContentRow > div {
+    flex-grow: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.registrationTableRowContent .registrationTableRowContentRow > div {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    border-bottom: 1px solid #c4c4c4;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.registrationTableRow .tableIdBox {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    min-width: 200px;
+    max-width: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.registrationTableRow:not(.registrationTableHeader) .tableIdBox {
+    line-height: 30px;
+}
+
+.registrationTableRowContent .registrationTableRowContentRow .tableNameBox,
+.registrationTableRowContent .registrationTableRowContentRow .tableIdBox {
+    font-weight: 600;
+}
+
+.registrationTableRowContent .registrationTableRowContentRow .tableNameBox {
+    width: 18%;
+}
+
+.registrationTableRowContent .registrationTableRowContentRow .tableEmailBox {
+    width: 20%;
+}
+
+.registrationTableRowContent .registrationTableRowContentRow .tableOrganisationBox {
+    width: 22%;
+}
+
+.registrationTableRowContent .registrationTableRowContentRow .tableRegisteredBox {
+    width: 15%;
+}
+
+.registrationTableRowContent .registrationTableRowContentRow .tableStatusBox {
+    width: 15%;
+}
+
+.registrationTableRowContent .registrationTableRowContentRow .tableListBox {
+    width: 10%;
+}
+
+.registrationContentTable {
+    width: 100%;
+}
+
+.registrationContentTable .ant-table-thead > tr > th,
+.registrationTableHeader > .tableIdBox,
+.registrationTableHeader .registrationTableRowContentRow > div {
+    background: transparent;
+    border-bottom: 1px solid #c4c4c4;
+    font-size: 16px;
+    font-weight: 600;
+    color: #6808fe;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.registrationContentTable .ant-table-thead > tr > th:before {
+    display: none;
+}
+
+.registrationContentTable .ant-table-tbody > tr > td {
+    border-bottom: 1px solid #c4c4c4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.registrationContentTable .ant-table-tbody > tr > td[rowspan] {
+    vertical-align: top;
+}
+
+.registrationContentTable .ant-table-tbody > tr > td,
+.registrationContentTable .ant-table-tbody > tr > td .ant-typography {
+    font-size: 16px;
+    color: #000 !important;
+    font-weight: 400;
+    margin: 0 !important;
+}
+
+.registrationContentTable .ant-table-tbody > tr > td .ant-typography {
+    display: block;
+}
+
+.registrationContentTable .registrationStatusText {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.registrationContentTable .iconChecked,
+.registrationContentTable .iconCancle,
+.registrationContentTable .iconInvited {
+    margin: 0 10px 0 0;
+}
+
+.registrationContentTable .ant-table-tbody > tr > td:first-child .ant-typography,
+.registrationContentTable .ant-table-tbody > tr > td:nth-child(2) .ant-typography {
+    /* font-weight: 600; */
+}
+
+.registrationContentTable .ant-table-tbody > tr > td:nth-child(2) .ant-typography {
+    /* margin-left: 5px !important; */
+}
+
+.registrationContentTable .crewAvatar {
+    background: #6808fe;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+
+.registrationContentTable .crewAvatar .ant-typography {
+    font-size: 14px;
+    color: #fff !important;
+    margin: 0 !important;
+    font-weight: 600;
+}
+
+.registrationContentTable .crewAvatar + .textOverflow {
+    margin-left: 0 !important;
+}
+
+.registrationContentTable .playerName {
+    width: calc(100% - 40px);
+    max-width: 180px;
+    cursor: pointer;
+}
+
+.registrationContentTable .playerId,
+.registrationContentTable .playerName,
+.registrationContentTable .textOverflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    /* max-width: 280px; */
+}
+
+.registrationContentTable .playerId,
+.registrationContentTable .playerName {
+    font-weight: 600;
+}
+
+.registrationContentTable .iconChecked,
+.registrationContentTable .iconCancle,
+.registrationContentTable .iconInvited {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    margin: 0 10px 0 0;
+    display: block;
+}
+
+.registrationContentTable .iconChecked svg,
+.registrationContentTable .iconCancle svg,
+.registrationContentTable .iconInvited svg {
+    width: 100%;
+    height: 100%;
+}
+
+.registrationContentTable .iconChecked {
+    color: #1DDB8B;
+}
+
+.registrationContentTable .iconCancle {
+    color: #F53F3F;
+}
+
+.registrationContentTable .iconInvited {
+    background: #FEBC10;
+    color: #fff;
+    transform: rotate(90deg);
+    border-radius: 100%;
+    padding: 4px;
+}
+
+.registrationContentTable .tableIdBox,
+.registrationContentTable .tableSortButtons,
+.registrationTableRow .tableIdBox {
+    display: flex;
+    align-items: center;
+}
+
+.registrationTableRow .tableIdBox.invisible {
+    opacity: 0;
+}
+
+.registrationContentTable .tableIdBox .idTitle {
+    padding: 0 10px;
+}
+
+.registrationContentTable .tableSortButtons .btnSorting {
+    background: #fff;
+    border-radius: 5px;
+    min-width: inherit;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+    color: #AEAEAE;
+    border: 0;
+    padding: 0 !important;
+    width: 32px;
+    height: 32px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 15px;
+}
+
+.registrationContentTable .tableSortButtons .btnSorting:hover {
+    background: #6808FE;
+    color: #fff;
+}
+
+.registrationContentTable .tableIdCheckbox,
+.registrationTableRow .tableIdBox .tableIdCheckbox {
+    position: relative;
+    margin: 0 10px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.registrationContentTable .tableIdCheckbox .customChecbox,
+.registrationTableRow .tableIdBox .tableIdCheckbox .customChecbox  {
+    width: 21px;
+    height: 21px;
+    min-width: 21px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
+
+.registrationContentTable .tableIdCheckbox .ant-input,
+.registrationTableRow .tableIdBox .tableIdCheckbox .ant-input  {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.registrationContentTable .tableIdCheckbox .customChecbox:before,
+.registrationTableRow .tableIdBox .tableIdCheckbox .customChecbox:before  {
+    width: 12px;
+    height: 7px;
+    content: '';
+    border-width: 0 0 2px 2px;
+    border-style: solid;
+    border-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 3px;
+    transform: rotate(-45deg) translate(-50%, -50%);
+}
+
+.registrationContentTable .tableIdCheckbox .ant-input:checked + .customChecbox,
+.registrationTableRow .tableIdBox .tableIdCheckbox .ant-input:checked + .customChecbox {
+    background: #6808fe;
+    border-color: #6808fe;
+}
+
+.registrationContentTable .tableIdCheckbox .tableIdNumber {
+    font-weight: 600;
+    color: #aeaeae;
+    margin-left: 10px;
+}
+
+.assignTeamModal h1.ant-typography.assignTeamModalHeading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+}
+
+.assignTeamModal h1.ant-typography.assignTeamModalHeading .ant-select {
+    font-size: 22px !important;
+    color: #000 !important;
+    display: inline !important;
+    width: auto !important;
+    padding-left: 5px;
+}
+
+.assignTeamModal h1.ant-typography.assignTeamModalHeading .ant-select-single:not(.ant-select-customize-input) .ant-select-selector::after {
+    display: none;
+}
+
+.assignTeamModal h1.ant-typography.assignTeamModalHeading .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border: 0 !important;
+    padding: 0 20px 0 0 !important;
+    height: auto !important;
+    width: auto !important;
+}
+
+.assignTeamModal h1.ant-typography.assignTeamModalHeading .ant-select-single:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input {
+    padding: 0 !important;
+    height: auto !important;
+}
+
+.assignTeamModal h1.ant-typography.assignTeamModalHeading .ant-select-single .ant-select-selector .ant-select-selection-item, 
+.assignTeamModal h1.ant-typography.assignTeamModalHeading .ant-select-single .ant-select-selector .ant-select-selection-placeholder,
+.assignTeamModal h1.ant-typography.assignTeamModalHeading .ant-select-single:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-search-input {
+    line-height: 1.23 !important;
+}
+
+.assignTeamModal h1.ant-typography.assignTeamModalHeading .ant-select-single.ant-select-show-arrow .ant-select-selection-item, 
+.assignTeamModal h1.ant-typography.assignTeamModalHeading .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    padding-right: 0;
+}
+
+.assignTeamModal h1.ant-typography.assignTeamModalHeading .ant-select-arrow {
+    /* display: none !important; */
+}
+
+.assignTeamModal h1.ant-typography.assignTeamModalHeading .ant-select .ant-select-arrow {
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.82267 7.52978L6.82324 7.53035L7.53035 6.82324L7.52978 6.82267L13.6453 0.707108L12.9382 0L6.82267 6.11556L0.707107 0L0 0.707107L6.11556 6.82267L6.11499 6.82324L6.8221 7.53035L6.82267 7.52978Z' fill='%23000000'/%3E%3C/svg%3E");
+  background-size: 100% 100%;
+  width: 12px;
+  height: 6px;
+  right: 0;
+  margin-top: -3px;
+}
+
+.assignTeamModal h1.ant-typography.assignTeamModalHeading .ant-select .ant-select-arrow .anticon {
+  line-height: 0;
+  font-size: 0;
+  display: none;
+}
+
+.registrationSetupModal {
+    width: 100% !important;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.registrationSetupModal .registrationSetupModalHolder {
+    width: 100%;
+    overflow: hidden;
+}
+
+.registrationSetupModal .registrationSetupModalTitle {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 15px;
+    color: #101115 !important;
+}
+
+.registrationSetupModal .ant-image {
+    margin: 0 0 30px !important;
+}
+
+.registrationSetupList {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 25px;
+    max-width: 460px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #101115;
+    font-weight: 500;
+}
+
+.registrationSetupList li {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 15px;
+}
+
+.registrationSetupList li + li {
+    border-top: 1px solid #c4c4c4;
+}
+
+.registrationSetupList li .anticon {
+    color: #1DDB8B;
+    margin: 5px 10px 0 0;
+}
+
+.registrationSetupModalButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 460px;
+    height: 48px;
+    margin: 0 auto;
+    border-radius: 29px;
+    border: 1px solid #aeaeae;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.registrationSetupModalButton .anticon {
+    margin: 0 5px 0 0;
+}
+
+.registrationSetupModalButton svg {
+    color: #aeaeae;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.registrationSetupModalButton:hover {
+    color: #fff;
+    background: #6808fe;
+    border-color: #6808fe;
+}
+
+.registrationSetupModalButton:hover svg {
+    color: #fff;
+}
+
+.leaderboardPageWrapper .competitionSidebarHolder::after {
+    display: none;
+}
+
+.leaderboardPageWrapper.registrationPageWrapper .competitionSidebarTitle {
+    padding-left: 20px;
+}
+
+.loader-icon  {
+    animation: rotate 1s infinite;  
+    height: 24px;
+    width: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loader-icon:before,
+.loader-icon:after {   
+    border-radius: 100%;
+    content: '';
+    display: block;
+    height: 8px;
+    width: 8px;
+}
+.loader-icon:before {
+    animation: ball1 1s infinite;  
+    background-color: #6808fe;
+    box-shadow: 16px 0 0 #6808fe;
+    margin-bottom: 7px;
+    opacity: 0.25;
+}
+.loader-icon:after {
+    animation: ball2 1s infinite; 
+    background-color: #6808fe;
+    box-shadow: 16px 0 0 #6808fe;
+    opacity: 0.25;
+}
+
+@keyframes rotate {
+    0% { 
+        transform: rotate(0deg);
+    }
+
+    50% { 
+        transform: rotate(180deg) scale(1.25);
+    }
+
+    100% {
+        transform: rotate(360deg); 
+    }
+}
+
+@keyframes ball1 {
+    0% {
+        box-shadow: 16px 0 0 #6808fe;
+    }
+
+    50% {
+        box-shadow: 0 0 0 #6808fe;
+        margin-bottom: 0;
+        transform: translate(8px, 8px);
+    }
+
+    100% {
+        box-shadow: 16px 0 0 #6808fe;
+        margin-bottom: 7px;
+    }
+}
+
+@keyframes ball2 {
+    0% {
+        box-shadow: 16px 0 0 #6808fe;
+    }
+
+    50% {
+        box-shadow: 0 0 0 #6808fe;
+        margin-top: -7px;
+        transform: translate(8px, 8px);
+    }
+
+    100% {
+        box-shadow: 16px 0 0 #6808fe;
+        margin-top: 0;
+    }
+}
+
+.participantDashboardTasks {
+    margin: 0 0 35px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 17px;
+    border: 1px solid #efefef;
+    box-shadow: 0 10px 27px 0px rgba(231, 231, 231, 0.49);
+}
+
+.participantDashboardTasksHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 35px 0;
+}
+
+.participantDashboardTasksHeaderLeft {
+    display: flex;
+    align-items: center;
+}
+
+.participantDashboardTasksHeaderLeft .ant-avatar {
+    width: 50px;
+    height: 50px;
+    margin: 0 15px 0 0;
+}
+
+.participantDashboardTasksHeaderLeft .title {
+    display: block;
+    color: #101115 !important;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.participantDashboardTasksHeaderLeft .textHolder {
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+}
+
+.participantDashboardTasksHeaderLeft .participantDashboardTasksStatus {
+    display: flex;
+    align-items: center;
+}
+
+.participantDashboardTasksHeaderLeft .participantDashboardTasksStatus .participantDashboardTasksStatusIcon {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    margin: 1px 5px 0 0;
+}
+
+.participantDashboardTasksHeaderLeft .participantDashboardTasksStatus strong {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.25;
+    color: #666;
+    font-weight: 500;
+    display: block;
+}
+
+.participantDashboardTasks .tasksTabsHolder {
+    overflow: hidden;
+    padding: 30px 35px;
+}
+
+.participantDashboardTasks .tasksTabsHolder + .tasksTabsHolder {
+    border-top: 1px solid #c4c4c4;
+}
+
+.participantDashboardTasks .tasksTabsHolder .tasksList {
+    margin: 0;
+}
+
+.participantDashboardTasks .tasksTabsHolder .tasksList li:last-child {
+    margin-bottom: 0;
+}
+
+.participantDashboardTasks .tasksTagTitle {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6808FE;
+    font-weight: 500;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 33px;
+    background: rgba(104, 8, 254, 0.15);
+    border: 0;
+    margin: 0 0 25px;
+}
+
+.participantDashboardTasks .participantDashboardTasksButton {
+    padding: 0 30px 35px;
+}
+
+.participantDashboardTasks .participantDashboardTasksButton .ant-btn.ant-btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 16px !important;
+    line-height: 1.25 !important;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.participantDashboardTasks .participantDashboardTasksButton .ant-btn.ant-btn-primary .anticon {
+    font-size: 0;
+    line-height: 0;
+}
+
+.participantDashboardTasksModal {
+    max-width: 900px !important;
+    width: 90% !important;
+    margin: 25px 0;
+}
+
+.participantDashboardTasksModal .ant-modal-content .ant-modal-body {
+    /* padding: 45px 35px 35px; */
+}
+
+.participantDashboardTasksModal .tasksTabsContentBlock .ant-tabs-top > .ant-tabs-nav::before {
+    display: none;
+}
+
+.participantDashboardTasksModal .tasksTabsContentBlock .ant-tabs {
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+    text-align: left;
+}
+
+.csvUploadPlaceholder {
+    overflow: hidden;
+    text-align: center;
+}
+
+.csvUploadPlaceholder .csvUploadPlaceholderImage {
+    width: 192px;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+
+.csvUploadPlaceholder .csvUploadPlaceholderImage img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.csvUploadPlaceholder .textbox {
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 500;
+    color: #666;
+    padding-bottom: 10px;
+}
+
+.csvUploadPlaceholder .textbox .textDark {
+    color: #000;
+}
+
+.csvUploadPlaceholder .textbox  .sampleLink {
+    color: #6808FE;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.csvUploadPlaceholder .textbox  .sampleLink:hover {
+    text-decoration: none;
+}
+
+.participantDashboardTasks .participantDashboardTasksButton + .tasksTabsHolder {
+    border-top: 1px solid #c4c4c4;
+}
+
+.tasksTabsHolder.tasksTabResourcesFooter {
+    position: relative;
+    border-top: 1px dashed #C4C4C4 !important;
+}
+
+.tasksTabResourcesUploadedList {
+    display: flex;
+    flex-flow: row wrap;
+    margin: -5px;
+    padding: 0;
+}
+
+.tasksTabResourcesUploadedList .taskStatusLine {
+    margin: 0;
+    padding: 3px 5px 5px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    color: #6808FE !important;
+    width: 100%;
+    text-align: right;
+    /* position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%); */
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources {
+    padding: 5px;
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources .tasksResourceTime {
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #666;
+    margin: 0 0 8px;
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources .tasksResourceTime .lateIcon {
+    width: 12px;
+    height: 12px;
+    border-radius: 0;
+    margin: 0 5px 0 0;
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources .taskResourcesAttachment {
+    padding: 3px;
+    border-radius: 20px;
+    background: #EFEFEF;
+    border-color: #EFEFEF;
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources .taskResourcesAttachment .icon {
+    position: static;
+    transform: none;
+    width: 12px;
+    margin: 0 7px 0 0;
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources .taskResourcesAttachment .icon svg {
+    width: 13px;
+    height: auto;
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources .taskResourcesAttachment .icon .anticon.file svg {
+    width: 10px;
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources .taskResourcesAttachment .ant-avatar {
+    width: 26px;
+    min-width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    margin: 0 7px 0 0;
+    background: #6808FE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources .taskResourcesAttachment .ant-avatar .ant-typography {
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    color: #fff !important;
+    font-size: 11px;
+    margin: 0;
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources .taskResourcesAttachment .ant-avatar img {
+    object-position: center top;
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources .taskResourcesAttachment .ant-typography {
+    font-size: 11px;
+    line-height: 1.3;
+    font-weight: 500 !important;
+    color: #000 !important;
+    display: block;
+    max-width: 140px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0 7px 0 0;
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources .taskResourcesAttachment .buttonDelete {
+    position: static;
+    transform: none;
+    width: 18px;
+    height: 18px;
+    color: #aeaeae;
+    background: transparent;
+    margin: 0 4px 0 0;
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources .taskResourcesAttachment .buttonDelete:hover {
+    color: #6808fe;
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources .taskResourcesAttachment .buttonDelete svg {
+    width: 17px;
+    height: 17px;
+}
+
+.tasksTabResourcesFooter .roundSubmissionsModalResourceButtons {
+    justify-content: flex-start;
+    /* margin: 0 -5px; */
+    padding: 18px 5px 0;
+}
+
+.tasksTabResourcesFooter .roundSubmissionsModalResourceButtons .ant-btn {
+    width: 125px;
+    height: 38px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    margin: 0 5px;
+}
+
+.tasksTabResourcesFooter .roundSubmissionsModalResourceButtons .ant-btn:hover {
+    color: #fff;
+}
+
+.tasksTabResourcesFooter .roundSubmissionsModalResourceButtons .ant-btn .anticon svg {
+    width: 14px;
+}
+
+.tasksTabResourcesFooter .submissionStatusLocked {
+    padding: 18px 0 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.tasksTabResourcesFooter .submissionStatusLocked .lockedIcon {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #C4C4C4;
+    margin: 0 10px 0 0;
+}
+
+.tasksTabResourcesFooter .submissionStatusLocked .lockedIcon svg {
+    width: 16px;
+    height: auto;
+}
+
+.tasksTabResourcesFooter .submissionStatusLocked .title {
+    display: block;
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 500;
+    color: #000;
+}
+
+.tasksTabResourcesFooter .submissionStatusLocked .submissionStatusBlockTextSubtext {
+    font-size: 12px;
+    line-height: 1.3;
+    font-weight: 500;
+    font-style: italic;
+    color: #666;
+    display: block;
+}
+
+.tasksTabResourcesUploadedList .tasksTabResources + .roundSubmissionsModalResourceButtons,
+.tasksTabResourcesFooter .tasksTabResourcesUploadedList .tasksTabResources + .submissionStatusLocked {
+    width: 100%;
+}
+
+.tasksTabResourcesUploadedList .taskStatusLine + .roundSubmissionsModalResourceButtons,
+.tasksTabResourcesUploadedList .taskStatusLine + .submissionStatusLocked  {
+    padding-top: 0;
+    margin-top: -35px;
+}
+
+.ant-picker-ranges .ant-picker-now {
+    text-align: center;
+    width: 100%;
+    padding: 3px 0 5px;
+}
+
+.ant-picker-ranges .ant-picker-now .ant-picker-now-btn {
+    font-size: 14px;
+    color: #6808FE;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.ant-picker-ranges .ant-picker-ok {
+    padding-bottom: 6px;
+}
+
+.ant-picker-ranges .ant-picker-ok .ant-btn-sm.ant-btn-primary {
+    font-size: 16px;
+    font-weight: 600 !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+
+.userFormHolderHead {
+    display: flex;
+    align-items: flex-start;
+}
+
+.userFormHolderHead .tertiaryButton {
+    margin-top: 8px;
+}
+
+.userFormHolderHead .tertiaryButton svg {
+    color: #000;
+    width: 20px;
+    height: 20px;
+    transition: 0.3s;
+}
+
+.userFormHolderHead .tertiaryButton:hover svg {
+    color: #6808fe;
+}
+
+@media (max-width: 1399px) {
+    .registrationsContent {
+        padding-left: 0;
+    }
+
+    .leaderboardPageWrapper.registrationPageWrapper .competitionSidebarTitle {
+        padding-left: 0;
+    }
+
+    .registrationsContentPrimaryHeaderStatus {
+        padding: 15px;
+    }
+
+    .registrationsContentPrimaryHeaderStatus .title {
+        font-size: 15px;
+    }
+
+    .registrationsContentPrimaryHeaderStatus .linkCopy {
+        width: 250px;
+    }
+
+    .registrationCountingStatsBox {
+        width: 165px;
+        padding: 15px 15px 18px;
+    }
+
+    .registrationCountingStatsBox .textPoints {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .registrationContentTable .ant-table-thead > tr > th,
+    .registrationContentTable .ant-table-tbody > tr > td,
+    .registrationContentTable .ant-table-tbody > tr > td .ant-typography,
+    .registrationTableRowContent .registrationTableRowContentRow > div,
+    .registrationTableRow .tableIdBox {
+        font-size: 13px;
+    }
+
+    .registrationContentTable .ant-table-tbody > tr > td .ant-typography.registrationStatusText .iconChecked, 
+    .registrationContentTable .ant-table-tbody > tr > td .ant-typography.registrationStatusText .iconCancle, 
+    .registrationContentTable .ant-table-tbody > tr > td .ant-typography.registrationStatusText .iconInvited {
+        margin: 0 7px 0 0;
+        width: 17px;
+        height: 17px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .registrationsContentPrimaryHeaderStatus {
+        margin-right: 15px;
+    }
+
+    .registrationsContentPrimaryHeaderStatus.open {
+        flex-flow: row wrap;
+        height: auto;
+    }
+
+    .registrationsContentPrimaryHeaderStatus.open .title {
+        width: 100%;
+        margin: -2px 0 12px !important;
+    }
+
+    .registrationsContentSecondaryHeaderButtons {
+        margin: 0 -5px;
+    }
+
+    .registrationsContentSecondaryHeaderButtons .buttonRegistrations {
+        margin: 0 5px;
+        min-width: inherit;
+        font-size: 15px;
+    }
+
+    .registrationTableRow .tableIdBox {
+        min-width: 150px;
+        max-width: 150px;
+    }
+
+    .registrationContentTable .ant-table-thead > tr > th {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .registrationContentTable .ant-table-tbody > tr > td,
+    .registrationTableRowContent .registrationTableRowContentRow > div,
+    .registrationTableRow .tableIdBox {
+        /* padding-top: 20px;
+        padding-bottom: 20px; */
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .registrationContentTable .ant-table-thead > tr > th,
+    .registrationContentTable .ant-table-tbody > tr > td, 
+    .registrationContentTable .ant-table-tbody > tr > td .ant-typography,
+    .registrationTableRowContent .registrationTableRowContentRow > div,
+    .registrationTableRow .tableIdBox {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .registrationContentTable .crewAvatar {
+        width: 24px;
+        height: 24px;
+        min-width: 24px;
+    }
+
+    .registrationContentTable .crewAvatar .ant-typography {
+        font-size: 10px;
+    }
+
+    .registrationContentTable .ant-table-tbody > tr > td .playerId, 
+    .registrationContentTable .ant-table-tbody > tr > td .playerName, 
+    .registrationContentTable .ant-table-tbody > tr > td .textOverflow {
+        max-width: 220px;
+    }
+
+    .registrationTableRow:not(.registrationTableHeader) .tableIdBox {
+        line-height: 24px;
+    }
+
+    .registrationContentTable .iconChecked, 
+    .registrationContentTable .iconCancle, 
+    .registrationContentTable .iconInvited {
+        width: 15px;
+        height: 15px;
+        min-width: 15px;
+        margin: 0 7px 0 0;
+    }
+
+    .registrationContentTable .iconInvited {
+        padding: 2px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .ant-layout {
+        overflow: visible;
+        height: auto;
+    }
+
+    .leaderboardPageWrapper .competitionSidebarHolder {
+        padding: 15px 15px 0;
+        margin-bottom: 0;
+    }
+
+    .registrationsContent {
+        padding-top: 60px;
+    }
+
+    .registrationsContentPrimaryHeader {
+        flex-flow: row wrap;
+        margin: 0 0 20px;
+    }
+
+    .registrationsContentPrimaryHeaderStatus {
+        margin: 0 0 20px;
+        width: 100%;
+    }
+
+    .registrationsContentPrimaryHeaderStatus .linkCopy {
+        width: calc(100% - 108px);
+    }
+
+    .registrationsContentSecondaryHeader {
+        margin: 0 0 20px;
+    }
+    
+    .registrationCountingStats {
+        width: calc(100% + 14px);
+    }
+
+    .registrationCountingStatsBox {
+        width: 50%;
+    }
+
+    .registrationsContentSecondaryHeaderButtons .buttonRegistrations {
+        font-size: 14px;
+        padding: 12px 15px !important;
+    }
+
+    .registrationContentTable .ant-table-content,
+    .registrationContentHolderWrapper {
+        overflow: auto;
+        padding-bottom: 25px;
+    }
+
+    .registrationContentTable .ant-table table,
+    .registrationContentHolderWrapper .registrationContentHolder {
+        min-width: 950px;
+    }
+
+    .registrationContentHolderWrapper.placeholderNoTable {
+        overflow: hidden;
+    }
+
+    .registrationContentHolderWrapper.placeholderNoTable .registrationContentHolder {
+        min-width: inherit;
+    }
+
+    .registrationTableRow .tableIdBox {
+        min-width: 130px;
+        max-width: 130px;
+    }
+
+    .registrationContentTable .ant-table-tbody > tr > td {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .registrationContentTable .ant-table-tbody > tr > td .playerId, 
+    .registrationContentTable .ant-table-tbody > tr > td .playerName, 
+    .registrationContentTable .ant-table-tbody > tr > td .textOverflow {
+        max-width: 180px;
+    }
+
+    .registrationContentTable .ant-table-tbody > tr > td .ant-typography.registrationStatusText .statusText {
+        display: none;
+    }
+
+    .userFormHolderHead .tertiaryButton {
+        margin-top: 3px;
+    }
+}
+
+@media (max-width: 767px) {
+    .participantDashboardTasksModal {
+        margin: 15px 0 !important;
+    }
+
+    .participantDashboardTasksModal .ant-modal-content .ant-modal-body {
+        padding: 45px 15px 10px;
+    }
+
+    .participantDashboardTasksModal .ant-modal-footer {
+        padding: 25px 15px 25px;
+    }
+
+    .teamScoringTabs .mockedActiveRound.roundStatsBlock .roundStatsBlockTitle {
+        flex-flow: row nowrap;
+        border-bottom: 1px solid #aeaeae;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .teamScoringTabs .mockedActiveRound.roundStatsBlock .mockedActiveRoundTitleWrap {
+        flex-flow: row wrap;
+    }
+
+    .teamScoringTabs .mockedActiveRound.roundStatsBlock .roundStatsBlockTitle h1.ant-typography {
+        margin: -8px 0 5px;
+    }
+
+    .teamScoringTabs .mockedActiveRound.roundStatsBlock .mockedActiveRoundTitleWrap .mockedActiveRoundText {
+        margin-left: 0 !important;
+        min-width: inherit;
+        padding-left: 40px;
+        margin-top: -9px;
+    }
+
+    .teamScoringTabs .mockedActiveRound.roundStatsBlock .participantDashboardScoresSubHeaderInfo .mockedRoundImage {
+        display: block;
+        width: 36px;
+        margin: 0 10px 0 0;
+    }
+
+    .teamScoringTabs .mockedActiveRound.roundStatsBlock .mockedActiveRoundTitleWrap {
+        width: auto;
+        margin: 0;
+    }
+
+    .teamScoringTabs .mockedActiveRound.roundStatsBlock .participantDashboardScoresSubHeaderInfo + .participantDashboardScoresSubHeaderInfo .mockedRoundImage {
+        display: none;
+    }
+
+    .teamScoringTabs .mockedActiveRound.roundStatsBlock .mockedActiveRoundTitleWrap .mockedActiveRoundText span {
+        color: #101115 !important;
+        text-decoration: none;
+    }
+
+    .teamScoringTabs .mockedActiveRound.roundStatsBlock .mockedActiveRoundTitleWrap .mockedActiveRoundText svg {
+        width: 10px;
+        height: 10px;
+        color: #888;
+    }
+
+    .teamScoringTabs .mockedActiveRound .mockedActiveRoundPoints {
+        margin: 0;
+    }
+
+    .teamScoringTabs .mockedActiveRound .mockedActiveRoundPoints .weightageText {
+        display: none;
+    }
+
+    .teamScoringTabs .mockedActiveRound.roundStatsBlock .totalStatsBlockTitlePoints {
+        bottom: 0;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .teamScoringTabs .mockedActiveRound.roundStatsBlock .totalStatsBlockTitlePoints .notScoredEmpty {
+        font-size: 14px;
+        min-width: 40px;
+        text-align: right;
+    }
+
+    .totalStatsBlockTitlePoints .totalPoints {
+        font-size: 13px;
+    }
+
+    .mobileDemoBlock {
+        display: none;
+    }
+
+    .registrationsContent {
+        padding-top: 0;
+        padding-bottom: 65px;
+    }
+
+    .registrationContentTable .ant-table-content {
+        padding-bottom: 15px;
+    }
+
+    .registrationCountingStatsBox .textPoints {
+        font-size: 28px;
+    }
+
+    .registrationCountingStatsBox .textSubtitle {
+        font-size: 14px;
+    }
+
+    .registrationsContentPrimaryHeaderStatus {
+        position: relative;
+    }
+
+    .registrationsContentPrimaryHeaderStatus .ant-switch {
+        position: absolute;
+        right: 15px;
+        top: 13px;
+    }
+
+    .registrationsContentPrimaryHeaderStatus:not(.open) .ant-switch {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .registrationsContentPrimaryHeaderStatus .linkCopy {
+        margin: 0;
+        width: calc(100% - 53px);
+    }
+
+    .registrationsContentSecondaryHeader {
+        margin-bottom: 10px;
+    }
+
+    .registrationsContentSecondaryHeader {
+        flex-flow: row wrap;
+    }
+
+    .registrationsContentSecondaryHeaderForm {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .registrationsContentSecondaryHeaderForm .label {
+        margin-bottom: 5px;
+    }
+
+    .registrationsContentSecondaryHeaderFormFields .field {
+        width: 100%;
+    }
+
+    .registrationsContentSecondaryHeaderButtons {
+        flex-flow: row wrap;
+        width: 100%;
+    }
+
+    .registrationsContentSecondaryHeaderButtons .buttonRegistrations {
+        flex: 1;
+        margin-bottom: 10px;
+    }
+
+    .registrationContentHolderWrapper {
+        margin-bottom: 35px;
+    }
+
+    .leaderboardPageWrapper.registrationPageWrapper .competitionSidebarTitle {
+        padding-left: 15px;
+    }
+
+    .registrationContentTable .ant-table table {
+        min-width: 780px;
+    }
+
+    .registrationContentTable .ant-table-thead > tr > th,
+    .registrationContentTable .ant-table-tbody > tr > td {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .registrationContentTable .ant-table-tbody > tr > td .playerId, 
+    .registrationContentTable .ant-table-tbody > tr > td .playerName, 
+    .registrationContentTable .ant-table-tbody > tr > td .textOverflow {
+        max-width: 150px;
+    }
+
+    .dashboardHeader {
+        padding: 10px 15px !important;
+    }
+
+    .settingsMobileTabs li {
+        flex-grow: 1;
+    }
+    
+    .settingsMobileTabs li a {
+        text-align: center;
+    }
+
+    .participantsDashboardTabs .roundStatsBlock.mockedActiveRound .mockedActiveRoundTitleWrap .participantDashboardScoresSubHeaderInfo .mockedActiveRoundText {
+        display: none;
+    }
+
+    .participantsDashboardTabs .roundStatsBlock.mockedActiveRound .mockedActiveRoundTitleWrap .participantTimelineTitle {
+        display: block;
+    }
+
+    .participantsDashboardTabs .roundStatsBlock.mockedActiveRound .mockedActiveRoundTitleWrap .participantTimelineTitle .mockedActiveRoundText {
+        display: inline-flex;
+        position: relative;
+        top: -2px;
+        min-width: inherit;
+    }
+
+    .participantsDashboardTabs .roundStatsBlock.mockedActiveRound .mockedActiveRoundTitleWrap .participantTimelineTitle .mockedActiveRoundText .anticon {
+        margin-left: 0;
+    }
+
+    .registrationPlaceholder {
+        min-height: inherit;
+        margin-bottom: 0;
+        padding: 10px 0 25px;
+    }
+
+    .registrationPlaceholder .registrationPlaceholderImage .ant-image .ant-image-img {
+        max-height: inherit !important;
+        max-width: 250px;
+    }
+
+    .participantDashboardTasksHeader {
+        padding: 20px 20px 0;
+    }
+
+    .participantDashboardTasksHeaderLeft .ant-avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .participantDashboardTasksHeaderLeft .title {
+        font-size: 20px;
+    }
+
+    .participantDashboardTasks .tasksTabsHolder {
+        padding: 20px;
+    }
+
+    .participantDashboardTasks .participantDashboardTasksButton {
+        padding: 0 20px 20px;
+    }
+
+    .tasksTabResourcesUploadedList .taskStatusLine {
+        text-align: left;
+    }
+
+    .tasksTabResourcesUploadedList .taskStatusLine + .roundSubmissionsModalResourceButtons, 
+    .tasksTabResourcesUploadedList .taskStatusLine + .submissionStatusLocked {
+        margin-top: 0;
+        padding-top: 10px;
+    }
+
+    .tasksTabResourcesFooter .roundSubmissionsModalResourceButtons {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 5px;
+    }
+
+    .userFormHolderHead {
+        justify-content: center;
+    }
+
+    .userFormHolderHead .tertiaryButton {
+        margin-top: -1px;
+    }
+}

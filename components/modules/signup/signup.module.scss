@@ -1,0 +1,336 @@
+.formContainer {
+  max-width: 565px;
+  margin: 0 auto;
+  display: flex;
+  align-items: safe center;
+  min-height: calc(100% - 65px);
+  
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+}
+
+.formHolder {
+  width: 100%;
+
+  .headingOne,
+  h1 {
+    font-size: 36px !important;
+    color: #000 !important;
+    margin: 0 0 50px !important;
+
+    @media (max-width: 1023px) {
+      font-size: 28px !important;
+    }
+
+    @media (max-width: 767px) {
+      font-size: 22px !important;
+      margin: 0 0 30px !important;
+    }
+
+    span {
+      @media (max-width: 767px) {
+        display: block;
+        font-weight: 400;
+        color: #666;
+        padding: 0 0 8px;
+      }
+    }
+  }
+}
+
+.profileHeading {
+  display: none;
+
+  @media (max-width: 767px) {
+    display: block;
+    font-size: 24px !important;
+  }
+}
+
+.formLabel,
+.professionalModuleLabel {
+  color: #101115 !important;
+  line-height: 1.5;
+  margin: 0 0 25px;
+  display: block;
+  font-weight: 500;
+}
+
+.formLabel {
+  font-size: 20px;
+}
+
+.professionalModuleLabel {
+  font-size: 16px;
+
+  @media (max-width: 767px) {
+    text-align: left;
+  }
+}
+
+.socialNetworks {
+  list-style: none;
+  padding: 0;
+  margin: 0 -20px 50px;
+  display: flex;
+  display: none;
+
+  @media (max-width: 767px) {
+    justify-content: center;
+  }
+
+  li {
+    padding: 0 20px;
+  }
+
+  .socialButton {
+    background: none;
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    color: #aeaeae;
+
+    &:hover {
+      color: #40a9ff;
+    }
+
+    > * {
+      font-size: 34px;
+    }
+  }
+}
+
+.userEmailWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 35px;
+
+  @media (max-width: 767px) {
+    justify-content: center;
+  }
+
+  .ant-btn {
+    width: 245px !important;
+    height: 24px !important;
+    
+    .anticon {
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+
+  .userEmail {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666 !important;
+    font-weight: 500;
+    width: 100%;
+    margin: 0;
+
+    @media (max-width: 767px) {
+      width: auto;
+    }
+
+    .userVerifyIcon {
+      margin: 0 0 0 10px;
+    }
+
+    svg {
+      @media (max-width: 767px) {
+        width: 24px;
+      }
+    }
+  }
+
+  .userEmailIcon {
+    font-size: 24px;
+    line-height: 0;
+    display: block;
+    margin: 0 15px 0 0;
+    color: #aeaeae;
+  }
+
+  .emailEditButton {
+    &:hover,
+    &:focus {
+      background: transparent;
+    }
+
+    > * {
+      font-size: 24px;
+      line-height: 1;
+      color: #aeaeae;
+
+      &:hover {
+        color: #40a9ff;
+      }
+    }
+  }
+}
+
+.formText {
+  font-size: 16px;
+  color: #000 !important;
+  font-weight: 600;
+  margin: 0 0 30px;
+  display: block;
+
+  .formTextEmail {
+    color: #666;
+
+    @media (max-width: 767px) {
+      display: block;
+    }
+  }
+}
+
+.otpInputHolder {
+  overflow: hidden;
+  margin: 0 -6px 35px;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 767px) {
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+}
+
+.otpInputField {
+  width: 66px;
+  height: 60px;
+  padding: 0 6px;
+
+  @media (max-width: 767px) {
+    width: 54px;
+    height: 50px;
+  }
+
+  &:nth-child(3) {
+    margin-right: 15px;
+  }
+
+  .inputStyle {
+    width: 100% !important;
+    height: 100%;
+    border-radius: 11px;
+    border: 1px solid #aeaeae;
+    font-size: 20px;
+    color: #101115;
+    font-weight: 600;
+
+    @media (max-width: 767px) {
+      border-radius: 5px;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &::placeholder {
+      color: #888;
+      font-weight: 400;
+    }
+
+    &.inputLarge {
+      height: 74px;
+      border-radius: 11px !important;
+      border: 1px solid #aeaeae;
+      padding: 4px 25px !important;
+    }
+  }
+}
+
+.loader {
+  margin-left: 30px;
+  color: #1ddb8b;
+
+  @media (max-width: 767px) {
+    margin: 40px 0 0;
+  }
+}
+
+.resendOTP {
+  width: 100%;
+  overflow: hidden;
+  padding: 30px 0 0;
+
+  span.otpText {
+    margin: 0 0 20px !important;
+    display: block !important;
+  }
+
+  .otpErrorMessage {
+    margin: 0 0 40px !important;
+    display: flex !important;
+    align-items: center;
+    color: #F53F3F !important;
+
+    img {
+      margin: 0 10px 0 0;
+      width: 25px;
+    }
+  }
+}
+
+.alignRight {
+  margin-left: auto;
+}
+
+.personaliseHeader {
+  overflow: hidden;
+  text-align: center;
+  margin: 0 0 70px;
+
+  @media (max-width: 767px) {
+    padding: 0 35px;
+    margin: 0 0 30px;
+  }
+}
+
+.mainHeading {
+  font-size: 58px !important;
+  line-height: 1.15 !important;
+  color: #888 !important;
+  margin: 0 0 15px !important;
+  font-weight: 600;
+
+  @media (max-width: 1023px) {
+    font-size: 40px !important;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 28px !important;
+    line-height: 1.5 !important;
+    color: #000 !important;
+  }
+}
+
+.mainHeadingText {
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #101115 !important;
+
+  @media (max-width: 1023px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 16px;
+    color: #666 !important;
+  }
+}
+
+.personaliseFooter {
+  overflow: hidden;
+  text-align: center;
+  padding: 0 0 30px;
+}

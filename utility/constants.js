@@ -1,0 +1,12 @@
+export const EMAIL_MODULE = "EMAIL_MODULE";
+export const EDIT_EMAIL_MODULE = "EDIT_EMAIL_MODULE";
+export const PASSWORD_MODULE = "PASSWORD_MODULE";
+export const OTP_MODULE = "OTP_MODULE";
+export const PROFESSION_MODULE = "PROFESSION_MODULE";
+export const DETAILS_MODULE = "DETAILS_MODULE";
+export const CATEGORIES_MODULE = "CATEGORIES_MODULE";
+export const Abandoned = "Abandoned";
+export const Concluded = "Concluded";
+export const Active = "Active";
+export const INVITE_MEMBERS_MODULE = "INVITE_MEMBERS_MODULE";
+export const SOMETHING_WENT_WRONG = "Something went wrong";

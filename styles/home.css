@@ -1,0 +1,24 @@
+.ant-popover-buttons .ant-btn-primary {
+  height: 24px !important;
+  min-width: 0 !important;
+  font-size: 16px !important;
+  border-radius: 0 !important;
+  padding: inherit !important ;
+  padding-right: 0.3rem !important;
+  padding-left: 0.3rem !important;
+}
+.ant-popover-buttons .ant-btn-default {
+  font-size: 16px;
+}
+
+.judge-emoji-border {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.grayed-element {
+  background-color: #d9d9d9 !important;
+}
+
+.rounded-grayed-element {
+  border-radius: 15px;
+}

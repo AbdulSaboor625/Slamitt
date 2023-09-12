@@ -1,0 +1,575 @@
+import React from "react";
+
+const Backup = () => {
+  return (
+    <>
+      <div className="profileCompetitionBox thirdPlace disabled/firstPlace/secondPlace">
+        <div className="profileCompetitionBoxImage">
+          {editable && (
+            <span className="profileCompetitionBoxViewButton">
+              <EyeIcon className="iconHide" />
+              <EyeHideIcon className="iconShow" />
+            </span>
+          )}
+          <div className="teamLogo">
+            <img
+              src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663777406276_Ellipse_47.png"
+              alt=""
+            />
+          </div>
+          <Image
+            preview={false}
+            // className="w-[100%]"
+            src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663776063606_imgcompetition01.jpg"
+            alt=""
+          />
+          <div className="profileCompetitionTeamCode">
+            <div className="profileCompetitionTeamCodeImage">
+              <img
+                src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674670967065_team.png"
+                alt=""
+              />
+            </div>
+            <span className="profileCompetitionTeamCodeText">TeamCode</span>
+          </div>
+          {editable && (
+            <EyeFilled className="absolute left-3 top-2 cursor-pointer" />
+          )}
+        </div>
+        <div className="profileCompetitionBoxContent">
+          {/* top div */}
+          <div className="profileCompetitionBoxTop">
+            <div className="profileCompetitionBoxLeft">
+              <div className="profileCompetitionBoxHeading">
+                <Typography.Text className="profileCompetitionBoxTitle">
+                  Precipice
+                </Typography.Text>
+                <CheckCircleIcon className="checkIcon" />
+              </div>
+              <div className="profileCompetitionBoxInfo">
+                <Typography.Text className="date">
+                  22 June, 2021 - 31 July, 2021
+                </Typography.Text>
+              </div>
+              <div className="profileCompetitionBoxStats">
+                <Typography.Text className="profileCompetitionBoxStatsText">
+                  <span className="icon">
+                    <img
+                      src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663776555250_image_21.png"
+                      alt=""
+                    />
+                  </span>
+                  <span className="text">Management</span>
+                </Typography.Text>
+                <Typography.Text className="profileCompetitionBoxStatsText">
+                  <span className="icon">
+                    <LikeSVGIcon className="likeIcon" />
+                  </span>
+                  <span className="text">3</span>
+                </Typography.Text>
+                <Typography.Text className="profileCompetitionBoxStatsText">
+                  <span className="icon">
+                    <ChatNewIcon className="chatIcon" />
+                  </span>
+                  <span className="text">10</span>
+                </Typography.Text>
+              </div>
+            </div>
+            <div className="profileCompetitionBoxRight">
+              <div className="profileCompetitionBoxRightHead">
+                <Avatar src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663777348189_Ellipse_26.png" />
+                <div className="textbox">
+                  <Typography.Title level={5}>3rd Place</Typography.Title>
+                  {/* <Typography.Text className="teamCode">
+                Team Swish <InfoCircleOutlined />{" "}
+              </Typography.Text> */}
+                </div>
+              </div>
+              <ul className="profileCompetitionBoxIcons">
+                <li>
+                  <img
+                    src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1675270004929_icon01.png"
+                    width="18"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1675270024472_icon02.png"
+                    width="18"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1675270051834_icon03.png"
+                    width="19"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+          {/* below div */}
+          <div className="profileCompetitionBoxBottom">
+            <div className="boxItem">
+              <span className="icon groupIcon">
+                <img
+                  src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674669680079_group.png"
+                  alt=""
+                />
+              </span>
+              <Typography.Text>35 Teams</Typography.Text>
+            </div>
+            <div className="boxItem">
+              <span className="icon roundIcon">
+                <img
+                  src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674669741422_round.png"
+                  alt=""
+                />
+              </span>
+              <Typography.Text>7 Rounds</Typography.Text>
+            </div>
+            <div className="boxItem">
+              <span className="icon judgeIcon">
+                <img
+                  src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674669758228_judge.png"
+                  alt=""
+                />
+              </span>
+              <Typography.Text>5 Judges</Typography.Text>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="profileCompetitionBox firstPlace disabled/secondPlace/thirdPlace">
+        <div className="profileCompetitionBoxImage">
+          {editable && (
+            <span className="profileCompetitionBoxViewButton">
+              <EyeIcon className="iconHide" />
+              <EyeHideIcon className="iconShow" />
+            </span>
+          )}
+          <div className="teamLogo">
+            <img
+              src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663778372680_Group_1876.png"
+              alt=""
+            />
+          </div>
+          <Image
+            preview={false}
+            // className="w-[100%]"
+            src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663777959085_imgcompetition02.jpg"
+            alt=""
+          />
+          <div className="profileCompetitionTeamCode">
+            <div className="profileCompetitionTeamCodeImage">
+              <img
+                src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674671000213_single.png"
+                alt=""
+              />
+            </div>
+            <span className="profileCompetitionTeamCodeText">PartCode</span>
+          </div>
+          {editable && (
+            <EyeFilled className="absolute left-3 top-2 cursor-pointer" />
+          )}
+        </div>
+        <div className="profileCompetitionBoxContent">
+          {/* top div */}
+          <div className="profileCompetitionBoxTop">
+            <div className="profileCompetitionBoxLeft">
+              <div className="profileCompetitionBoxHeading">
+                <Typography.Text className="profileCompetitionBoxTitle">
+                  Crescentia (Hyderabad)
+                </Typography.Text>
+                <CheckCircleIcon className="checkIcon" />
+              </div>
+              <div className="profileCompetitionBoxInfo">
+                <Typography.Text className="date">
+                  22 June, 2021 - 31 July, 2021
+                </Typography.Text>
+              </div>
+              <div className="profileCompetitionBoxStats">
+                <Typography.Text className="profileCompetitionBoxStatsText">
+                  <span className="icon">
+                    <img
+                      src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663776555250_image_21.png"
+                      alt=""
+                    />
+                  </span>
+                  <span className="text">Business</span>
+                </Typography.Text>
+                <Typography.Text className="profileCompetitionBoxStatsText">
+                  <span className="icon">
+                    <LikeSVGIcon className="likeIcon" />
+                  </span>
+                  <span className="text">5</span>
+                </Typography.Text>
+                <Typography.Text className="profileCompetitionBoxStatsText">
+                  <span className="icon">
+                    <ChatNewIcon className="chatIcon" />
+                  </span>
+                  <span className="text">17</span>
+                </Typography.Text>
+              </div>
+            </div>
+            <div className="profileCompetitionBoxRight">
+              <div className="profileCompetitionBoxRightHead">
+                <Avatar src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663778988280_Ellipse_263.png" />
+                <div className="textbox">
+                  <Typography.Title level={5}>1st place</Typography.Title>
+                  {/* <Typography.Text className="teamCode">
+                Team Zelda <InfoCircleOutlined />{" "}
+              </Typography.Text> */}
+                </div>
+              </div>
+              <ul className="profileCompetitionBoxIcons">
+                <li>
+                  <img
+                    src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1675270004929_icon01.png"
+                    width="18"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1675270024472_icon02.png"
+                    width="18"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1675270051834_icon03.png"
+                    width="19"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1675270343076_icon04.png"
+                    width="20"
+                  />
+                  {/* <span className="prize">25K</span> */}
+                </li>
+              </ul>
+            </div>
+          </div>
+          {/* below div */}
+          <div className="profileCompetitionBoxBottom">
+            <div className="boxItem">
+              <span className="icon singleIcon">
+                <img
+                  src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674669918200_avatar.png"
+                  alt=""
+                />
+              </span>
+              <Typography.Text>35 Teams</Typography.Text>
+            </div>
+            <div className="boxItem">
+              <span className="icon roundIcon">
+                <img
+                  src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674669741422_round.png"
+                  alt=""
+                />
+              </span>
+              <Typography.Text>7 Rounds</Typography.Text>
+            </div>
+            <div className="boxItem">
+              <span className="icon judgeIcon">
+                <img
+                  src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674669758228_judge.png"
+                  alt=""
+                />
+              </span>
+              <Typography.Text>5 Judges</Typography.Text>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="profileCompetitionBox secondPlace disabled/firstPlace/thirdPlace">
+        <div className="profileCompetitionBoxImage">
+          {editable && (
+            <span className="profileCompetitionBoxViewButton">
+              <EyeIcon className="iconHide" />
+              <EyeHideIcon className="iconShow" />
+            </span>
+          )}
+          <div className="teamLogo">
+            <img
+              src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663779251476_Ellipse_46.png"
+              alt=""
+            />
+          </div>
+          <Image
+            preview={false}
+            // className="w-[100%]"
+            src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663778704998_imgcompetition03.jpg"
+            alt=""
+          />
+          <div className="profileCompetitionTeamCode">
+            <div className="profileCompetitionTeamCodeImage">
+              <img
+                src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674671000213_single.png"
+                alt=""
+              />
+            </div>
+            <span className="profileCompetitionTeamCodeText">PartCode</span>
+          </div>
+          {/* <div className="profileCompetitionImages">
+        <ul>
+          <li><img src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663779691208_icologo01.png" alt=""/></li>
+          <li><img src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663779736275_icologo02.png" alt=""/></li>
+          <li><img src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663779761322_icologo03.png" alt=""/></li>
+        </ul>
+      </div> */}
+          {editable && (
+            <EyeFilled className="absolute left-3 top-2 cursor-pointer" />
+          )}
+        </div>
+        <div className="profileCompetitionBoxContent">
+          {/* top div */}
+          <div className="profileCompetitionBoxTop">
+            <div className="profileCompetitionBoxLeft">
+              <div className="profileCompetitionBoxHeading">
+                <Typography.Text className="profileCompetitionBoxTitle">
+                  Cognito, Christ DPS
+                </Typography.Text>
+                <CheckCircleIcon className="checkIcon" />
+              </div>
+              <div className="profileCompetitionBoxInfo">
+                <Typography.Text className="date">
+                  22 June, 2021 - 31 July, 2021
+                </Typography.Text>
+              </div>
+              <div className="profileCompetitionBoxStats">
+                <Typography.Text className="profileCompetitionBoxStatsText">
+                  <span className="icon">
+                    <img
+                      src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663776555250_image_21.png"
+                      alt=""
+                    />
+                  </span>
+                  <span className="span">Management</span>
+                </Typography.Text>
+                <Typography.Text className="profileCompetitionBoxStatsText">
+                  <span className="icon">
+                    <LikeSVGIcon className="likeIcon" />
+                  </span>
+                  <span className="text">4</span>
+                </Typography.Text>
+                <Typography.Text className="profileCompetitionBoxStatsText">
+                  <span className="icon">
+                    <ChatNewIcon className="chatIcon" />
+                  </span>
+                  <span className="text">3</span>
+                </Typography.Text>
+              </div>
+            </div>
+            <div className="profileCompetitionBoxRight">
+              <div className="profileCompetitionBoxRightHead">
+                <Avatar src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663779041275_Ellipse_262.png" />
+                <div className="textbox">
+                  <Typography.Title level={5}>Runner Up</Typography.Title>
+                  {/* <Typography.Text className="teamCode">
+                Part Oppo <InfoCircleOutlined />{" "}
+              </Typography.Text> */}
+                </div>
+              </div>
+              <ul className="profileCompetitionBoxIcons">
+                <li>
+                  <img
+                    src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1675270004929_icon01.png"
+                    width="18"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1675270024472_icon02.png"
+                    width="18"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1675270051834_icon03.png"
+                    width="19"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+          {/* below div */}
+          <div className="profileCompetitionBoxBottom">
+            <div className="boxItem">
+              <span className="icon singleIcon">
+                <img
+                  src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674669918200_avatar.png"
+                  alt=""
+                />
+              </span>
+              <Typography.Text>35 Teams</Typography.Text>
+            </div>
+            <div className="boxItem">
+              <span className="icon roundIcon">
+                <img
+                  src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674669741422_round.png"
+                  alt=""
+                />
+              </span>
+              <Typography.Text>7 Rounds</Typography.Text>
+            </div>
+            <div className="boxItem">
+              <span className="icon judgeIcon">
+                <img
+                  src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674669758228_judge.png"
+                  alt=""
+                />
+              </span>
+              <Typography.Text>5 Judges</Typography.Text>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="profileCompetitionBox specialMention disabled/firstPlace/thirdPlace">
+        <div className="profileCompetitionBoxImage">
+          {editable && (
+            <span className="profileCompetitionBoxViewButton">
+              <EyeIcon className="iconHide" />
+              <EyeHideIcon className="iconShow" />
+            </span>
+          )}
+          <div className="teamLogo">
+            <img
+              src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663779251476_Ellipse_46.png"
+              alt=""
+            />
+          </div>
+          {/* <Image
+        preview={false}
+        // className="w-[100%]"
+        src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663778704998_imgcompetition03.jpg"
+        alt=""
+      /> */}
+          <div className="profileCompetitionTeamCode">
+            <div className="profileCompetitionTeamCodeImage">
+              <img
+                src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674671000213_single.png"
+                alt=""
+              />
+            </div>
+            <span className="profileCompetitionTeamCodeText">PartCode</span>
+          </div>
+          {/* <div className="profileCompetitionImages">
+        <ul>
+          <li><img src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663779691208_icologo01.png" alt=""/></li>
+          <li><img src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663779736275_icologo02.png" alt=""/></li>
+          <li><img src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663779761322_icologo03.png" alt=""/></li>
+        </ul>
+      </div> */}
+          {editable && (
+            <EyeFilled className="absolute left-3 top-2 cursor-pointer" />
+          )}
+        </div>
+        <div className="profileCompetitionBoxContent">
+          {/* top div */}
+          <div className="profileCompetitionBoxTop">
+            <div className="profileCompetitionBoxLeft">
+              <div className="profileCompetitionBoxHeading">
+                <Typography.Text className="profileCompetitionBoxTitle">
+                  Cognito, Christ DPS
+                </Typography.Text>
+                <CheckCircleIcon className="checkIcon" />
+              </div>
+              <div className="profileCompetitionBoxInfo">
+                <Typography.Text className="date">
+                  22 June, 2021 - 31 July, 2021
+                </Typography.Text>
+              </div>
+              <div className="profileCompetitionBoxStats">
+                <Typography.Text className="profileCompetitionBoxStatsText">
+                  <span className="icon">
+                    <img
+                      src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663776555250_image_21.png"
+                      alt=""
+                    />
+                  </span>
+                  <span className="span">Management</span>
+                </Typography.Text>
+                <Typography.Text className="profileCompetitionBoxStatsText">
+                  <span className="icon">
+                    <LikeSVGIcon className="likeIcon" />
+                  </span>
+                  <span className="text">4</span>
+                </Typography.Text>
+                <Typography.Text className="profileCompetitionBoxStatsText">
+                  <span className="icon">
+                    <ChatNewIcon className="chatIcon" />
+                  </span>
+                  <span className="text">3</span>
+                </Typography.Text>
+              </div>
+            </div>
+            <div className="profileCompetitionBoxRight">
+              <div className="profileCompetitionBoxRightHead">
+                <Avatar src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1663779041275_Ellipse_262.png" />
+                <div className="textbox">
+                  <Typography.Title level={5}>Special Mention</Typography.Title>
+                  {/* <Typography.Text className="teamCode">
+                Part Oppo <InfoCircleOutlined />{" "}
+              </Typography.Text> */}
+                </div>
+              </div>
+              <ul className="profileCompetitionBoxIcons">
+                <li>
+                  <img
+                    src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1675270004929_icon01.png"
+                    width="18"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1675270024472_icon02.png"
+                    width="18"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1675270051834_icon03.png"
+                    width="19"
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
+          {/* below div */}
+          <div className="profileCompetitionBoxBottom">
+            <div className="boxItem">
+              <span className="icon singleIcon">
+                <img
+                  src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674669918200_avatar.png"
+                  alt=""
+                />
+              </span>
+              <Typography.Text>35 Teams</Typography.Text>
+            </div>
+            <div className="boxItem">
+              <span className="icon roundIcon">
+                <img
+                  src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674669741422_round.png"
+                  alt=""
+                />
+              </span>
+              <Typography.Text>7 Rounds</Typography.Text>
+            </div>
+            <div className="boxItem">
+              <span className="icon judgeIcon">
+                <img
+                  src="https://rethink-competitions.s3.ap-south-1.amazonaws.com/1674669758228_judge.png"
+                  alt=""
+                />
+              </span>
+              <Typography.Text>5 Judges</Typography.Text>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Backup;

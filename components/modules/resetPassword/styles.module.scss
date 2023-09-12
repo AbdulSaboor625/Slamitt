@@ -1,0 +1,220 @@
+.formContainer {
+  max-width: 565px;
+  margin: 0 auto;
+  display: flex;
+  align-items: safe center;
+  min-height: calc(100% - 65px);
+
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+}
+
+.formHolder {
+  width: 100%;
+  margin: auto;
+}
+
+.headingOne {
+  font-size: 36px !important;
+  color: #101115 !important;
+  margin: 0 0 50px !important;
+
+  @media (max-width: 1023px) {
+    font-size: 28px !important;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 22px !important;
+  }
+}
+
+.formLabel {
+  color: #101115 !important;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 0 25px;
+  display: block;
+
+  @media (max-width: 1023px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 16px;
+  }
+
+  br {
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  &.formLabelSpace {
+    margin: 0 0 40px;
+  }
+}
+
+.userEmailWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 50px;
+
+  @media (max-width: 767px) {
+    justify-content: center;
+  }
+
+  .userEmail {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    font-weight: 500;
+
+    @media (max-width: 767px) {
+      width: auto;
+    }
+  }
+
+  .userEmailIcon {
+    font-size: 24px;
+    line-height: 0;
+    display: block;
+    margin: 0 10px 0 0;
+    color: #aeaeae;
+  }
+
+  .emailEditButton {
+    &:hover,
+    &:focus {
+      background: transparent;
+    }
+
+    > * {
+      font-size: 24px;
+      line-height: 1;
+      color: #aeaeae;
+
+      &:hover {
+        color: #40a9ff;
+      }
+    }
+  }
+}
+
+.formText {
+  font-size: 16px;
+  color: #000 !important;
+  font-weight: 600;
+  margin: 0 0 30px;
+  display: block;
+
+  .formTextEmail {
+    color: #666;
+  }
+}
+
+.otpInputHolder {
+  overflow: hidden;
+  margin: 0 -6px 35px;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 767px) {
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+}
+
+.otpInputField {
+  width: 66px;
+  height: 60px;
+  padding: 0 6px;
+
+  @media (max-width: 767px) {
+    width: 54px;
+    height: 50px;
+  }
+
+  &:nth-child(3) {
+    margin-right: 15px;
+  }
+
+  .inputStyle {
+    width: 100% !important;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid #aeaeae;
+    font-size: 25px;
+    font-weight: 400;
+
+    &:focus {
+      outline: none;
+    }
+
+    &.inputLarge {
+      height: 74px;
+      border-radius: 11px !important;
+      border: 1px solid #aeaeae;
+      padding: 4px 25px !important;
+    }
+  }
+}
+
+.inputStyles {
+  .inputstyle {
+    border: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.resendOTP {
+  width: 100%;
+  overflow: hidden;
+  padding: 30px 0 0;
+
+  .ant-typography {
+    @media (max-width: 767px) {
+      margin: 0 !important;
+    }
+  }
+
+  span.otpText {
+    margin: 0 0 20px !important;
+    display: block !important;
+  }
+
+  .otpErrorMessage {
+    margin: 0 0 40px !important;
+    display: flex !important;
+    align-items: center;
+    color: #F53F3F !important;
+
+    img {
+      margin: 0 10px 0 0;
+      width: 25px;
+    }
+  }
+}
+
+.otpButtonHolder {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+
+  .otpButton {
+    margin: 0 25px 0 0;
+  }
+}
+
+.loader {
+  margin-left: 30px;
+  color: #1ddb8b;
+
+  @media (max-width: 767px) {
+    margin: 40px 0 0;
+  }
+}
